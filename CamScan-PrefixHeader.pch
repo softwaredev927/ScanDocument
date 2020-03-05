@@ -1,0 +1,50 @@
+//
+//  CamScan-PrefixHeader.pch
+//  CamScan
+//
+//  Created by Amit Kulkarni on 18/08/16.
+//  Copyright © 2016 Amit Kulkarni. All rights reserved.
+//
+
+#ifndef CamScan_PrefixHeader_pch
+#define CamScan_PrefixHeader_pch
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import <Google/Analytics.h>
+#endif
+
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+alpha:1.0]
+
+#define APP_NAME    @"ScanDex"
+#define MAX_NUM_FILE 3
+
+//LIVE KEY
+//#define ADMOB_KEY @"ca-app-pub-4758294084210006/8951124977" // New
+#define ADMOB_KEY @"ca-app-pub-4758294084210006/1427858173" // Old
+//#define ADMOB_KEY @"ca-app-pub-3940256099942544/4411468910" // Test
+//#define ADMOB_KEY @"ca-app-pub-4758294084210006/6181737844" // same to banner ad
+#define ADMOB_BANNER_KEY @"ca-app-pub-4758294084210006/6181737844" //@"ca-app-pub-4758294084210006/1427858173"
+
+//TEST KEY
+//#define ADMOB_KEY @"ca-app-pub-3940256099942544/4411468910"
+
+#define APPLE_LINK       @"itms-apps://itunes.apple.com/app/id1149823920"
+#define ALERT_LIMIT_OVER @"Maximum limit over. Please download Pro version"
+#define ALERT_LIMIT_CAPTURE_OVER @"You can capture max 3 image. Please download Pro version"
+#define ALERT_PRO_VERSION @"This feature is available in pro version. Please download Pro version"
+
+#define CSAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#define CSStoreKitDelegate ([MyStoreKitDelegate sharedInstance])
+
+#define PRODUCT_ID_WEEKLY @"com.scandex.weekly"
+#define PRODUCT_ID_MONTHLY @"com.scandex.monthly"
+#define PRODUCT_ID_YEARLY @"com.scandex.yearly"
+
+#endif /* CamScan_PrefixHeader_pch */

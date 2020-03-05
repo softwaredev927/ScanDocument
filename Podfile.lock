@@ -1,0 +1,108 @@
+PODS:
+  - AppAuth (0.95.1)
+  - Firebase/AdMob (3.17.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.19.1)
+  - Firebase/Analytics (3.17.0):
+    - Firebase/Core
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google-Mobile-Ads-SDK (7.19.1)
+  - GoogleAPIClient/Core (1.0.5):
+    - GTMSessionFetcher (~> 1.1)
+  - GoogleAPIClient/Drive (1.0.5):
+    - GoogleAPIClient/Core
+    - GTMSessionFetcher (~> 1.1)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GPUImage (0.1.7)
+  - GTMAppAuth (0.7.1):
+    - AppAuth (~> 0.95)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - IAPHelper (1.1)
+  - Lockbox (3.0.6)
+  - "MotionOrientation@PTEz (1.1.0)"
+  - ObjectiveDropboxOfficial (3.9.4)
+  - QBPopupMenu (2.0)
+  - "RBVolumeButtons@PTEz (0.1.1)"
+  - SAMKeychain (1.5.3)
+  - SlideMenuControllerOC (1.0.2)
+
+DEPENDENCIES:
+  - Firebase/AdMob
+  - Firebase/Analytics
+  - Firebase/Core
+  - Google-Mobile-Ads-SDK
+  - GoogleAPIClient/Drive
+  - GPUImage
+  - GTMAppAuth
+  - IAPHelper
+  - Lockbox
+  - "MotionOrientation@PTEz"
+  - ObjectiveDropboxOfficial
+  - QBPopupMenu
+  - "RBVolumeButtons@PTEz"
+  - SAMKeychain
+  - SlideMenuControllerOC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppAuth
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Google-Mobile-Ads-SDK
+    - GoogleAPIClient
+    - GoogleToolboxForMac
+    - GPUImage
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IAPHelper
+    - Lockbox
+    - "MotionOrientation@PTEz"
+    - ObjectiveDropboxOfficial
+    - QBPopupMenu
+    - "RBVolumeButtons@PTEz"
+    - SAMKeychain
+    - SlideMenuControllerOC
+
+SPEC CHECKSUMS:
+  AppAuth: cd34aac431e5c77c46ec7f03935377faa8c5808b
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google-Mobile-Ads-SDK: 43ac87810e4961f5093024d3525bfe022f956da3
+  GoogleAPIClient: 77df755d41d70ee5a99b7b752614fbb439f19438
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  GTMAppAuth: c5e41aaf039ac1ccc41543e6ea2ef7abd255ad41
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  IAPHelper: fd74f53b0ac142eed085777b88b86a11746a2dd4
+  Lockbox: 4291a0b8b1aed35474881c4e592961dec3ca695e
+  "MotionOrientation@PTEz": 5c92c6c1fe6c2cb6c60348ec66b42d466668037f
+  ObjectiveDropboxOfficial: a5afefc83f6467c42c45f2253f583f2ad1ffc701
+  QBPopupMenu: e370cbc7ad8a8d09afe1726117aa18f92696f66a
+  "RBVolumeButtons@PTEz": e1fcc6cf368f908437a2ba91cfec9cb27b723894
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SlideMenuControllerOC: e5b1cdc1ff4e1c0eca58c0a64967ab25d95bf85f
+
+PODFILE CHECKSUM: 3e3e00bff851c877875c66593afd0dba6d7c832d
+
+COCOAPODS: 1.5.3
